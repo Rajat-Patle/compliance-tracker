@@ -4,7 +4,7 @@ import TaskList from "./components/TaskList";
 import AddTaskForm from "./components/AddTaskForm";
 import Filters from "./components/Filters";
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "compliance-tracker-production-bb3e.up.railway.app";
 
 function App() {
   const [clients, setClients] = useState([]);
