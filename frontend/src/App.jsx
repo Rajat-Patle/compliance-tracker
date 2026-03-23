@@ -6,6 +6,7 @@ import Filters from "./components/Filters";
 
 const API_BASE = "compliance-tracker-production-bb3e.up.railway.app";
 
+
 function App() {
   const [clients, setClients] = useState([]);
   const [selectedClient, setSelectedClient] = useState(null);
